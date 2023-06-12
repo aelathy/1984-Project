@@ -14,7 +14,7 @@ let questions = [
             {text: "Dog", response: "dog"},
             {text: "Cat", response: "cat"},
             {text: "Rabbit", response: "rabbit"},
-            {text: "Lizard", response: "lizzard"},
+            {text: "Lizard", response: "lizard"},
         ]
     },
     {

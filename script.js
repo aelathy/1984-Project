@@ -150,6 +150,7 @@ function selectAnswer(e) {
     let ifWrong = selectedBtn.dataset.wrong == "true";
     if (ifWrong) {
         wrongCount++;
+        countEl.innerHTML = 'Count: ' + wrongCount;
         console.log(wrongCount);
         selectedBtn.classList.add("wrong");
         setTimeout(() => { selectedBtn.classList.remove("wrong"); }, 500);

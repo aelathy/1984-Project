@@ -1,0 +1,124 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(235, 227, 227);
+}
+#m-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background-color: darkred;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.app{
+    background: black;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1 {
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid red;
+    padding-bottom: 30px;
+}
+.quiz {
+    padding: 20px 0;
+}
+.quiz h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid darkred;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover:not([disable]){
+    background: #222;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn {
+    background: darkred;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.wrong {
+    background: rgb(217, 129, 129);
+}
+.ok {
+    background: rgb(110, 184, 110);
+}
+.box {
+    display: flex;
+}
+.box .eye {
+    position: relative;
+    width: 120px;
+    height: 80px;
+    display: block;
+    margin: 0 20px;
+    border-radius: 50%;  
+}
+.box .eye::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translate(-50%, -50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: black;
+    border: 10px solid blue;
+    box-sizing: border-box;
+}
+#bigBro {
+    width: 35%;
+    height: 50%;
+    display: none;
+    margin: 0 auto;
+}
+#thumb {
+    width: 50%;
+    height: 50%;
+    display: none;
+    margin: 0 auto;
+}
+#count {
+    position: absolute;
+    top: 0;
+    right: 5;
+    color: #fff;
+    font-size: 25px;
+}
+#article {
+    position: absolute;
+    top:0;
+    left: 5;
+    color: #fff;
+    font-size: 30px;
+}
